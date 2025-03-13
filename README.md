@@ -34,9 +34,10 @@ This repository contains a Wii homebrew application that renders the Mandelbrot 
 - **(Optional) meta.xml**  
   Metadata for the application (if you wish to add it for Homebrew Channel display).
 
-## Building the Application
+## Deployment
 
-1. **Set Up Your Environment:**  
-   Ensure that the `DEVKITPPC` environment variable is set and points to your devkitPPC installation. For example:
-   ```bash
-   export DEVKITPPC=/path/to/devkitPro/devkitPPC
+To run the application, copy the generated file `my_app_mandelbrot.dol` to your SD card. You have to place it in the following directory structure:
+
+SD:/apps/Mandelbrot/my_app_mandelbrot.dol
+
+Also you can try it on Dolphin Emulator by clicking (and executing) `my_app_mandelbrot.dol`
