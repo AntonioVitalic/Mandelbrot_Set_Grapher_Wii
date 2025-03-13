@@ -31,8 +31,11 @@ This repository contains a Wii homebrew application that renders the Mandelbrot 
 - **source/main.c**  
   The main source code for the Wii Mandelbrot application.
 
-- **my_app_mandelbrot.dol**
-  The homebrew application that renders the Mandelbrot set with interactive controls using the Wii Remote
+- **my_app_mandelbrot.dol**\
+  The homebrew application that renders the Mandelbrot set with interactive controls using the Wii Remote.
+  
+- **Tutorial.pnproj**\
+  The project file to code on Programmer's Notepad program.
   
 
 ## Deployment
